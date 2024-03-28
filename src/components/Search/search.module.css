@@ -12,7 +12,8 @@
 
 .searchResult {
   background-color: var(--black-color);
-  width: 30vw;
+  width: 773px;
+  /* width: 30vw; */
   height: 455px;
   position: relative;
   left: -41px;
