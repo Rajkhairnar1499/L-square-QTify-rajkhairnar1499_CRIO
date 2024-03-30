@@ -1,18 +1,19 @@
+import { Button } from "@mui/material";
 import navbarStyles from "../Navbar/navbar.module.css";
 
-const Button = ({ eventHandler }) => {
+const Buttons = ({ eventHandler }) => {
   return (
     <div>
-      <button
+      <Button
         className={navbarStyles.feedback}
         onClick={(e) =>
           eventHandler.event === "onClick" && eventHandler.handler(e)
         }
       >
-        GIVE FEEDBACK
-      </button>
+        Give FeedBack
+      </Button>
     </div>
   );
 };
 
-export default Button;
+export default Buttons;
