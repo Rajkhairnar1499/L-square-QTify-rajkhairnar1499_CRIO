@@ -9,7 +9,7 @@ const Buttons = ({ eventHandler }) => {
           eventHandler.event === "onClick" && eventHandler.handler(e)
         }
       >
-        Give FeedBack
+        Give Feedback
       </button>
     </div>
   );
