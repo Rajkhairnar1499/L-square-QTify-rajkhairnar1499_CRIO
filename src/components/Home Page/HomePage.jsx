@@ -1,5 +1,7 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
+import sectionStyles from "../Section/Section.module.css";
+import Section from "../Section/Section";
 import { useState, useEffect } from "react";
 import {
   fetchTopAlbum,
@@ -36,6 +38,13 @@ const HomePage = () => {
     <>
       <Navbar data={topAlbum.concat(newAlbum)} page={"home"} />
       <Hero />
+      <div className={sectionStyles.sectionWrapper}>
+        <Section title="Top Albums" data={topAlbum} type="album" />
+        <Section title="New Albums" data={newAlbum} type="album" />
+        <hr />
+        <Section title="Songs" data={songs} type="songs" genres={genres} />{" "}
+        <hr />
+      </div>{" "}
     </>
   );
 };

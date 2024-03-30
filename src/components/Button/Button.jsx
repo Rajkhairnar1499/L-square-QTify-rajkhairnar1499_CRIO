@@ -1,6 +1,6 @@
-import navbarStyles from "../Navbar/navbar.module.css";
+import navbarStyles from "../Navbar/Navbar.module.css";
 
-const Buttons = ({ eventHandler }) => {
+const Button = ({ eventHandler }) => {
   return (
     <div>
       <button
@@ -15,4 +15,4 @@ const Buttons = ({ eventHandler }) => {
   );
 };
 
-export default Buttons;
+export default Button;

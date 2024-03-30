@@ -1,9 +1,9 @@
 import Logo from "../Logo/Logo";
 import Search from "../Search/Search";
-import Buttons from "../Button/Button";
+import Button from "../Button/Button";
 import { useEffect, useState } from "react";
 import Feedback from "../Feedback/Feedback";
-import styles from "./navbar.module.css";
+import styles from "./Navbar.module.css";
 
 const Navbar = ({ data, page, songsData }) => {
   const [isFeedbackClicked, setIsFeedbackClicked] = useState(false);
@@ -29,7 +29,7 @@ const Navbar = ({ data, page, songsData }) => {
       <nav className={styles.nav}>
         <Logo />
         <Search data={page === "home" ? data : songsData} page={page} />
-        <Buttons eventHandler={{ event: "onClick", handler: handleClick }} />
+        <Button eventHandler={{ event: "onClick", handler: handleClick }} />
       </nav>
       {isFeedbackClicked && (
         <Feedback onClose={() => setIsFeedbackClicked(false)} />
