@@ -1,0 +1,50 @@
+.hero {
+  width: 100vw;
+  height: 270px;
+  top: 74px;
+  /* left: 328px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.hero p {
+  text-align: center;
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 600;
+}
+
+.banner {
+  background-color: var(--black-color);
+}
+
+.hero img {
+  width: 212px;
+  height: 212px;
+}
+
+@media (max-width: 600px) {
+  .hero {
+    flex-direction: column-reverse;
+    height: 220px;
+    gap: 10px;
+  }
+  .hero img {
+    width: 130px;
+    height: 130px;
+  }
+  .hero p {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 850px) {
+  .hero p {
+    font-size: 20px;
+  }
+  .hero div {
+    margin-left: 20px;
+  }
+}

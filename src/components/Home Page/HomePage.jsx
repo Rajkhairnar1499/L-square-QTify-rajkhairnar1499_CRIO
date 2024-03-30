@@ -7,6 +7,7 @@ import {
   fetchSongs,
   fetchGenres,
 } from "../../api/api";
+import Hero from "../Hero/Hero";
 
 
 const HomePage = () => {
@@ -34,6 +35,7 @@ const HomePage = () => {
   return (
     <>
       <Navbar data={topAlbum.concat(newAlbum)} page={"home"} />
+      <Hero />
     </>
   );
 };
