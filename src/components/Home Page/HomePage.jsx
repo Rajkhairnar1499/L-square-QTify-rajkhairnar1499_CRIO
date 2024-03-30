@@ -10,6 +10,8 @@ import {
   fetchGenres,
 } from "../../api/api";
 import Hero from "../Hero/Hero";
+import FAQs from "../FAQs/FAQs";
+import Footer from "../Footer/Footer";
 
 
 const HomePage = () => {
@@ -45,6 +47,10 @@ const HomePage = () => {
         <Section title="Songs" data={songs} type="songs" genres={genres} />{" "}
         <hr />
       </div>{" "}
+      <FAQs />
+      <hr style={{ backgroundColor: "gray", border: "1px solid gray" }} />{" "}
+      <Footer />
+      <hr />
     </>
   );
 };
