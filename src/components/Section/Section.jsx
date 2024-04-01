@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import * as React from "react";
+import { useState } from "react";
 import "./material.css";
 import styles from "./Section.module.css";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
@@ -31,16 +32,17 @@ const Section = ({ title, data, type, genres }) => {
     setToggle(!toggle);
   };
 
-  const handleChange = (newValue) => {
+  const handleChange = (event, newValue) => {
     setValue(newValue);
   };
 
   const filterSongs = () => {
     if (type === "songs" && value !== "all") {
-      return data.filter((element) => element.genre.key === value);
+      return data.filter((ele) => ele.genre.key === value);
     }
     return data;
   };
+
   return (
     <div>
       <div className={styles.header}>
@@ -77,7 +79,14 @@ const Section = ({ title, data, type, genres }) => {
         </ThemeProvider>
       )}
       {!data.length ? (
-        <Box>
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            margin: "10px",
+          }}
+        >
           <CircularProgress color="success" />
           <p style={{ marginLeft: "10px" }}>Loading...</p>
         </Box>

@@ -27,3 +27,20 @@ hr {
 .swiper-slide {
   width: auto !important;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* background-color: #121212; */
+  /* background-color: #ffffff; */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  /* font-family: 'PT Sans', sans-serif; */
+}
+
+

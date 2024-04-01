@@ -4,6 +4,7 @@ import { fetchNewAlbum, fetchTopAlbum } from "../../api/api";
 import Navbar from "../Navbar/Navbar";
 import SongsHero from "../Songs Page Hero/SongsHero";
 import SongsTable from "../Table/Table";
+import AudioPlayer from "../AudioPlayerComponents/AudioPlayer";
 
 const AlbumSongsPage = () => {
   let location = useLocation();
@@ -32,6 +33,7 @@ const AlbumSongsPage = () => {
       <Navbar songsData={songs} page={"song"} />
       <SongsHero album={clickedAlbum} />
       <SongsTable album={clickedAlbum} />
+      <AudioPlayer />
     </div>
   );
 };

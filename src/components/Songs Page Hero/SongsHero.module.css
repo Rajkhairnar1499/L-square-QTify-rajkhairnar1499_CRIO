@@ -89,12 +89,12 @@
 }
 
 .shuffle::before {
-  content: url("../../assets/shuffle.svg");
+  content: url("../../assets/ShuffleIcon.svg");
   padding-right: 15px;
 }
 
 .library::before {
-  content: url("../../assets/library.svg");
+  content: url("../../assets/LibraryIcon.svg");
   padding-right: 15px;
 }
 

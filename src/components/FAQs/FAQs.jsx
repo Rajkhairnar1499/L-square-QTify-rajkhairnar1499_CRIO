@@ -14,8 +14,8 @@ let query = {
 
 const FAQs = () => {
   return (
-    <div>
-      <div>
+    <div className={styles.FaqsWrapper}>
+      <div className={styles.Faqs}>
         <h1>FAQs</h1>
 
         {Object.keys(query).map((question, index) => {

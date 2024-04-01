@@ -26,14 +26,17 @@ const Navbar = ({ data, page, songsData }) => {
 
   return (
     <>
-      <nav className={styles.nav}>
-        <Logo />
-        <Search data={page === "home" ? data : songsData} page={page} />
-        <Button eventHandler={{ event: "onClick", handler: handleClick }} />
-      </nav>
       {isFeedbackClicked && (
         <Feedback onClose={() => setIsFeedbackClicked(false)} />
       )}
+      <nav className={styles.nav}>
+        <Logo />
+        <Search data={page === "home" ? data : songsData} page={page} />
+        <Button
+          text="Give Feedback"
+          eventHandler={{ event: "onClick", handler: handleClick }}
+        />
+      </nav>
     </>
   );
 };

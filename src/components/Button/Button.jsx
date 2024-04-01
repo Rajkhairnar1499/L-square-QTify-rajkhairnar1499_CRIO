@@ -1,6 +1,6 @@
 import navbarStyles from "../Navbar/Navbar.module.css";
 
-const Button = ({ eventHandler }) => {
+const Button = ({ text, eventHandler }) => {
   return (
     <div>
       <button
@@ -9,7 +9,7 @@ const Button = ({ eventHandler }) => {
           eventHandler.event === "onClick" && eventHandler.handler(e)
         }
       >
-        Give Feedback
+        {text}
       </button>
     </div>
   );

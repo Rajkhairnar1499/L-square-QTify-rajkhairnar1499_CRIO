@@ -1,0 +1,78 @@
+.playerWrapper {
+  width: 100vw;
+  height: 180px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.imgCard {
+  display: flex;
+  align-items: center;
+  height: 82px;
+  width: 35vw;
+}
+
+.img img {
+  width: 80px;
+  height: 100px;
+}
+
+.songName {
+  font-size: 16px;
+}
+
+.albumName {
+  font-size: 12px;
+}
+
+.play_pause {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 75vw;
+  cursor: pointer;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 35vw;
+}
+
+.progressBar {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  width: 65vw;
+}
+
+.labels {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 65vw;
+  margin-top: 10px;
+}
+
+@media (max-width: 750px) {
+  .playerWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  .imgCard {
+    display: flex;
+    justify-content: center;
+  }
+  .img img {
+    width: 60px;
+    height: 60px;
+  }
+}
