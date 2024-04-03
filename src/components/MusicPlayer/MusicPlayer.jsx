@@ -84,7 +84,6 @@ const MusicPlayer = () => {
         display: "flex",
         width: "100vw",
         overflow: "hidden",
-        border: "solid green",
         justifyContent: "space-between",
         padding: "20px",
         "@media (max-width: 750px)": {
