@@ -11,8 +11,7 @@ import {
 } from "../../api/api";
 import Hero from "../Hero/Hero";
 import FAQs from "../FAQs/FAQs";
-// import Footer from "../Footer/Footer";
-import AudioPlayer from "../AudioPlayerComponents/AudioPlayer";
+import MusicPlayer from "../MusicPlayer/MusicPlayer";
 
 
 const HomePage = () => {
@@ -50,8 +49,9 @@ const HomePage = () => {
       </div>{" "}
       <FAQs />
       <hr style={{ backgroundColor: "gray", border: "1px solid gray" }} />{" "}
-      {/* <Footer /> */}
-      <AudioPlayer />
+      
+      {/* <AudioPlayer /> */}
+      <MusicPlayer />
       <hr />
     </>
   );
