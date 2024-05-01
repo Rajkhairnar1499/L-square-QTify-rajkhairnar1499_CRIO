@@ -1,16 +1,15 @@
 import * as React from "react";
 import { Stack, Pagination } from "@mui/material";
 import "./PaginationButton.css";
-
-const PaginationButton = ({
+export default function PaginationButtons({
   songsPerPage,
   totalSongs,
   paginate,
   currentPage,
-}) => {
+}) {
   let totalPage = Math.ceil(totalSongs / songsPerPage);
 
-  const handleChangePage = (value) => paginate(value);
+  const handleChangePage = (event, value) => paginate(value);
 
   return (
     <Stack spacing={2}>
@@ -26,6 +25,4 @@ const PaginationButton = ({
       />
     </Stack>
   );
-};
-
-export default PaginationButton;
+}
