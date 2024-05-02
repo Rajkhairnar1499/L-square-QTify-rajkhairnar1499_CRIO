@@ -1,76 +1,159 @@
-# Welcome to Qtify to UNLEASH YOUR MUSICAL SPIRIT
+<h1 align="center">UNLEASH YOUR MUSICAL SPIRIT with <strong>Qtify</strong></h1>
+<br />
+<div>
+      <h2>Overview</h2>
+      <p>
+        QTify is a song-browsing application built from scratch using ReactJS paired with Material UI and Swiper to deliver a seamless and aesthetic user interface, offering songs from different albums and genres for music lovers.
+      </p>
+      <p>While Building this Micro-Experience, the developer:</p>
+      <ul>
+        <li>
+          Conducted a thorough analysis of the provided Figma design, successfully identifying and documenting required front-end components.
+        </li>
+        <li>Using this <i><a href="https://www.figma.com/file/tuCV26ozM1R75Ze6ShZxKs/Qtify?type=design&node-id=0-1&mode=design"> Figma design</a></i> the QTify website is constructed.</li>
+        <li>
+          Created modular UI components including Cards, Carousels, and Buttons optimizing for reusability across various sections of the application.
+        </li>
+        <li>
+          Imlemented an intuitive genre-based song filtering system using a tab component by modifying the one provided by Material UI, allowing users to browse songs by their preferred genre effortlessy.
+        </li>
+        <li>Utilized axios to fetch data served by the backend server</li>
+        <li>Deployed the website to Vercel</li>
+        <li>To know more the details about the project click <a href="https://www.crio.do/learn/portfolio/rajkhairnar1499/ME_QTIFY/">Here</a></li>
+      </ul>
+    </div>
 
-This website is constructed according to the [Figma Design](https://www.figma.com/file/tuCV26ozM1R75Ze6ShZxKs/Qtify?type=design&node-id=0-1&mode=design).\
-Here is the live link to [Qtify]().
+<hr />
+    <div>
+        <h3 align="center" >Responsive Qkart-Ecommerce</h3>
+        <img src="./screenshots/All Devices.png" alt="All Devices Screenshot" style="width: 100vw; height: auto;"/>
+    </div>
+
+<hr>
+
+<h2>Project Demo</h2>
+<div align="center">
+      <p>Click the following link for the project demo</p>
+      <h3>
+        <a href="https://rajkhairnar1499-me-qkart-frontend-v2-a0hh06sg6.vercel.app/">Live Preview</a>
+      </h3>
+      <hr />
+      <p>Using the following the one can login into</p>
+      <p>USERNAME: <b>test123</b></p>
+      <p>PASSWORD: <b>test1234</b></p>
+      <hr />
+</div>
 
 
-# Getting Started with Create React App
+<h3>👨‍💻Technologies Used</h3>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. React
+2. Axios
+3. React Router
+4. React audio player
+5. React feather
+6. Material UI
+7. Styled Components
+8. Swiper
+9. Notistack
+10. HTML5
+11. CSS3
 
-## Available Scripts
 
-In the project directory, you can run:
+<br />
 
-### `npm start`
+<hr />
+    <div>
+      <h3>🚀 Features</h3>
+      <ol>
+        <li>Responsive Design To Support All Screen</li>
+        <li>User Can Search the specific genre albums in the SeachBar</li>
+        <li>User can give the Feedback about the website in the Feedback Modal</li>
+        <li>User can use the Collapsable Carousel or the album slider</li>
+        <li>Play/Pause is implemented in the Music Player Section</li>
+        <li>Album page pagination allows users to navigate through albums easily</li>
+      </ol>
+    </div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<hr />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h2>Screenshots</h2>
 
-### `npm test`
+<h4 align="center">1. Home Page</h4>
+<img src="./screenshots/Home Page.png"/>
+<h4 align="center">2. Carousel</h4>
+    <img
+      src="./screenshots/Carousel.png"
+    />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h4 align="center">3. Feedback Modal</h4>
+    <img
+      src="./screenshots/FeedBack Modal.png"
+    />
 
-### `npm run build`
+<h4 align="center">4. SearchBar</h4>
+    <img
+      src="./screenshots/Search Bar.png"
+    />
+<h4 align="center">5. Pagination</h4>
+    <img
+      src="./screenshots/Pagination.png"
+    />
+<h4 align="center">6. Music Player</h4>
+    <img
+      src="./screenshots/Music Player.png"
+    />
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<hr />
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h2>Installation</h2>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clone the project
 
-### `npm run eject`
+```bash
+  git clone <repo_link>
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Go to the project directory
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+  cd my-project
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Install dependencies
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+  npm install
+```
 
-## Learn More
+Start the server
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+  npm run start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<hr />
 
-### Code Splitting
+<h2>Future Implementations</h2>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Building the proper backend **API to fetch song** data.
+- Implementing all the features of the music player: **previous song, next song, shuffle, repeat**, etc.
+- Integrating authentication features such as **login/logout** with password reset functionality.
+- Most importantly, implementing the Route Protection feature for secure website routing.
 
-### Analyzing the Bundle Size
+<hr>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<h2>Contact</h2>
 
-### Making a Progressive Web App
+If you have any questions, feedback, or suggestions, feel free to reach out Using the following Medium:
+- [Email](shimpishubham4@gmail.com)
+- [Github Profile](https://github.com/Rajkhairnar1499)
+- [LinkedIn](https://www.linkedin.com/in/shubham-shimpi-884b821a2/)
+- [Twitter](https://twitter.com/ShubhamShimpi24)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<hr />
 
-### Advanced Configuration
+<h2>Thank You</h2>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p>Thank you for checking out my project! As a fresher, this project is crucial for my career, especially in interviews. If you found it helpful, please consider giving it a <strong>Star
+</strong> on GitHub. Your support means a lot and helps me stand out. Thank you!</p>

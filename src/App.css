@@ -36,4 +36,8 @@ hr {
   -webkit-text-size-adjust: 100%;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 

@@ -13,10 +13,8 @@
 .searchResult {
   background-color: var(--black-color);
   width: 773px;
-  /* width: 30vw; */
   height: 455px;
   position: relative;
-  left: -41px;
   top: 15px;
   border: 2px solid var(--primary-color);
   overflow-y: auto;
