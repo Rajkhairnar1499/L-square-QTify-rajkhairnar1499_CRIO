@@ -38,10 +38,6 @@
         <a href="https://l-square-q-tify-rajkhairnar1499-crio.vercel.app/">Live Preview</a>
       </h3>
       <hr />
-      <p>Using the following the one can login into</p>
-      <p>USERNAME: <b>test123</b></p>
-      <p>PASSWORD: <b>test1234</b></p>
-      <hr />
 </div>
 
 
@@ -157,3 +153,6 @@ If you have any questions, feedback, or suggestions, feel free to reach out Usin
 
 <p>Thank you for checking out my project! As a fresher, this project is crucial for my career, especially in interviews. If you found it helpful, please consider giving it a <strong>Star
 </strong> on GitHub. Your support means a lot and helps me stand out. Thank you!</p>
+
+<hr />
+<hr />
