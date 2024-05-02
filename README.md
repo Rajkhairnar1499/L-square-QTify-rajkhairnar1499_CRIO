@@ -35,7 +35,7 @@
 <div align="center">
       <p>Click the following link for the project demo</p>
       <h3>
-        <a href="https://rajkhairnar1499-me-qkart-frontend-v2-a0hh06sg6.vercel.app/">Live Preview</a>
+        <a href="https://l-square-q-tify-rajkhairnar1499-crio.vercel.app/">Live Preview</a>
       </h3>
       <hr />
       <p>Using the following the one can login into</p>
