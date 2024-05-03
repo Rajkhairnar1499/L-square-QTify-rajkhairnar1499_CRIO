@@ -25,7 +25,7 @@
 
 <hr />
     <div>
-        <h3 align="center" >Responsive Qkart-Ecommerce</h3>
+        <h3 align="center" >Responsive QTify</h3>
         <img src="./screenshots/All Devices.png" alt="All Devices Screenshot" style="width: 100vw; height: auto;"/>
     </div>
 
